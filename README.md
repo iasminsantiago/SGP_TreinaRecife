@@ -1,54 +1,70 @@
-# SGP_TreinaRecife
-Projeto full stack de gerenciador de projetos por usuário, usando Java + React e JS + React.
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
+In the project directory, you can run:
 
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# SGP - NOTAS
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Termos
+### `npm test`
 
-Spring - framework para produtividade
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Maven - gerencia as **dependências**, informo-as no arquivo e o Maven entende
+### `npm run build`
 
-# Criando o projeto
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Usando o spring initializr (cntl shift P - spring initialzr: Create a Maven project), escolheremos as configurações
-    - versão do spring boot
-    - nome do pacote (ex.: br.com.sitedoprojeto)
-    - nome do projeto (ex.: demo-springboot)
-    - jar
-    - versão do Java
-    - **dependências** base [1]
-    - 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Informaçoes úteis:
-http://localhost:8080/h2-console
-Porta - 
-JDBC URL: 
-Login: sa
-Senha: sa
+### `npm run eject`
 
-#### [1] Dependências
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Spring web - permite criarmos uma app web
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Spring data - permite interagirmos com banco de dados, podemos usar JDBC ou JPA
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-H2 - Se comunica com o banco de dados, é o driver do banco, H@ é um banco simples de utilizar
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-DevTools - dependência que permite termos rápidos restarts no projeto
+## Learn More
 
-#### Execução do código
--- O que acontece se clicar direto em Run, sem extensão Maven no VS CODE
-Não clicar em Run no VS Code pois isso roda pelo javac puro, que não conhece as dependências do Spring. 
-Projeto Spring Boot precisa ser rodado pelo Maven ou pela própria IDE, não diretamente pelo terminal assim.
-Por isso, usamos mvnw spring-boot:run
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
--- Porque o comando mvnw.. não deu certo mas mvn deu certo:
-mvnw — é o Maven "embutido" no projeto (Maven Wrapper). Às vezes não funciona no Windows por causa de permissão ou porque o arquivo não foi gerado corretamente.
-mvn — é o Maven instalado na minha  máquina. Como funcionou, significa que tenho o Maven instalado globalmente, o que é ótimo.
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
